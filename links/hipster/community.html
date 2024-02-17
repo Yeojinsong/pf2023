@@ -1,0 +1,247 @@
+<!--
+Filename: index.html
+Author: Yeojin Song 102060145
+Date Created: 24 May 2018
+Last Updated:
+Desrciption: Home Page of  Hipster's Anonymous Website
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<!-- document's character set -->
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="desrciption" content="Hipster's community Website">
+		<meta name="keywords" content="Hipster, urban, cafe, review">
+		<meta name="author" content="Yeojin Song">
+
+		<title>Hipster's Anonymous</title>
+
+		<!-- link to bootstrap external css file -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+
+		<!-- link to our custom external css file to override bootstrap css -->
+		<link rel="stylesheet" href="css/styles-mine.css" media="screen">
+
+		<!-- Bootstrap recommends including these at the end of the page  -->
+		<!-- jQuery (necessary for Bootstrap's Javasrcipt plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- link to required Bootstrap JS files -->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- link to google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<!-- link to custom css -->
+		<link rel="stylesheet" type="text/css" href="css/customCss.css">
+		
+		
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="logo" class="logoImg">		
+				</a>
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="subpage.htmlnavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item navFontStyle active">
+						<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						RESTAURANTS & CAFES
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="subpage.html">CAFE</a>
+							<a class="dropdown-item" href="subpage.html">DESSERT</a>
+							<a class="dropdown-item" href="subpage.html">ASIAN</a>
+							<a class="dropdown-item" href="subpage.html">LOCAL GEMS</a>
+							<a class="dropdown-item" href="subpage.html">BARBEQUE</a>
+							<a class="dropdown-item" href="subpage.html">BISTRO</a>
+							<a class="dropdown-item" href="subpage.html">HOME STYLE</a>
+							<a class="dropdown-item" href="subpage.html">FIND DINING</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						TRAVEL
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+							<a class="dropdown-item" href="subpage.html">LOCAL</a>
+							<a class="dropdown-item" href="subpage.html">OVERSEA</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						INTERIOR
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+							<a class="dropdown-item" href="subpage.html">OFFICE</a>
+							<a class="dropdown-item" href="subpage.html">STORE</a>
+							<a class="dropdown-item" href="subpage.html">HOME</a>
+							<a class="dropdown-item" href="subpage.html">GALLERY</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						HEALTH
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+							<a class="dropdown-item" href="subpage.html">EXERCISE</a>
+							<a class="dropdown-item" href="subpage.html">FOOD</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						EVENTS
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+							<a class="dropdown-item" href="subpage.html">ACTIVITY</a>
+							<a class="dropdown-item" href="subpage.html">ART</a>
+							<a class="dropdown-item" href="subpage.html">FOOD</a>
+							<a class="dropdown-item" href="subpage.html">MUSIC</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						COMMUNITY
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+							<a class="dropdown-item" href="community.html">TRANDING</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle">
+						<a class="nav-link" href="#">CONTACT US</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			  </div>
+			</nav>
+		</header>
+		<div class="container">
+			<!-- start sub tab menu-->
+			<div class="row">
+				<div class="submenuSearch">
+					<img src="images/communityHeader.jpg" class="img-fluid" alt="Header image">
+					<!-- tab start-->
+					<div class="searchList">						
+						<div class="tab-content" id="pills-tabContent">
+						  <div class="tab-pane fade show active greenBg" >
+							<form>
+								<div class="row text-center">
+									<div class="input-group col">
+										<div class="input-group-prepend">
+										<span class="input-group-text" ><img src="images/selectArrow.png" alt="select arrow"></span>
+										</div>
+										<select class="custom-select">
+										<option selected>Choose...</option>
+											<option value="1">A-Z</option>
+											<option value="2">Z-A</option>
+										</select>										
+									</div>
+									<div class="input-group col-6">
+										<div class="input-group-prepend">
+										<span class="input-group-text" ><img src="images/map.png" alt="google map"></span>
+										</div>
+										<input type="text" class="form-control">
+									</div>
+									<div class="col text-left">
+									<button type="submit" class="btn btn-warning"><img src="images/arrow.png" alt="arrow"></button>
+									</div>
+								</div>
+							</form>
+						  </div><!-- end -->
+						</div><!-- End of tab-->
+					</div><!-- End of col-8 col-sm-6-->
+				</div><!-- End of submenuSearch -->
+				<div>
+				<p class="communityTitle">Popular Photos</p>
+				</div>
+			</div><!-- End of row -->
+			<!-- end sub tab menu-->
+			
+			<!-- tag images start -->
+			<div class="row mx-auto">
+			  <div class="tagImages">
+				<a href="detail.html"><img src="images/there-s-actually-a-difference-between-dinner-and-supper_440843308-pressmaster-760x506.jpg" class="rounded mx-auto d-block" alt="Card image cap"></a>
+				<h5 class="tagTitle">#Vegan</h5>
+			  </div>
+			  <div class="tagImages">
+				<a href="detail.html"><img src="images/netball-melbourne-leagues.jpg" alt="Card image cap"></a>
+				<h5 class="tagTitle">#Exercise</h5>
+			  </div>
+			  <div class="tagImages">
+				<a href="detail.html"><img src="images/clublist_NoVacancy_SamGehrke_4413.jpg" alt="Card image cap"></a>
+				<h5 class="tagTitle">#Nightclub</h5>
+			  </div>
+			  <div class="tagImages">
+				<a href="detail.html"><img src="images/160615-Crown-Melbourne-Bars-San-Antone-Bar-Staff-Making-Cocktails-Quad-974x676.jpg" alt="Pub image "></a>
+				<h5 class="tagTitle">#Pub</h5>
+			  </div>
+			  <div class="tagImages">
+				<a href="detail.html"><img src="images/q-le-baker-melbourne_1.jpg" alt="Desert image"></a>
+				<h5 class="tagTitle">#Dessert</h5>
+			  </div>
+			  <div class="tagImages">
+				<a href="detail.html"><img src="images/bronxzoo-aba32f845e251f04b810d9ceca30d812.jpg" alt="Travel image"></a>
+				<h5 class="tagTitle">#Travel</h5>
+			  </div>
+			</div>
+			<!-- tag images end -->
+			
+			<!-- Events list header -->
+			<div class="row">
+				<div class="col">
+				<p class="foodTitle">#Food</p>
+				</div>
+			</div><!-- End of events list header -->
+			
+			<!-- food img list start-->
+			
+			<div class="row">
+			  <div class="tagImages">
+				<a href="detail.html"><img src="images/Spain_Barcelona_Placa_Reial.jpg" alt="food image"></a>
+			  </div>
+			  <div class="tagImages">
+				<a href="detail.html"><img src="images/image234.jpg" alt="food image"></a>
+			  </div>
+			  <div class="tagImages">
+				<a href="detail.html"><img src="images/vegan-yum-cha.jpg" alt="food image"></a>
+			  </div>
+			  <hr class="hrPadding">
+				<button type="button" class="btn btn-light btn-lg btn-block">Load More</button>
+			</div>
+
+		<!-- food img list end-->
+		</div><!-- end of container -->
+		<footer class="text-center">
+			<hr>
+			<p>&copy; Hipster’s Anonymous <span class="lSpace">l</span>
+				<a href="#">Send Feedback</a> <span class="lSpace">l</span>
+				<a href="#">Work With Us</a> <span class="lSpace">l</span>
+				<a href="#">Contact Us</a> <span class="lSpace">l</span>
+				<a href="#">Advertise</a> <span class="lSpace">l</span>
+				<a href="#">Terms of Service</a> <span class="lSpace">l</span>
+				<a href="#">Privacy</a>
+			</p>
+		</footer>
+	</body>
+</html>

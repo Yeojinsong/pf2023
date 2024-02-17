@@ -1,0 +1,187 @@
+/*
+Filename: customStyles.css
+Author: Janet Bott
+Date: 27 February 2018
+Description: CSS external stylesheet for Fruits 'R' Us website
+*/
+
+
+/* tell browsers to render HTML5 semantic elements as block elements */
+header, footer, aside, nav, article, section {
+	display: block;
+}
+
+
+
+/* body */
+body {
+	color: #606060;
+	background-color: #f8f8f8;
+}
+
+
+
+/* header */
+.jumbotron {
+	margin-top: 40px;
+	background: url("../images/banner.jpg") center center no-repeat;
+	background-size: cover;
+	color: #606060;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.jumbotron  p {
+	color: #606060;
+	font-weight: 500;
+}
+
+
+/* navigation */
+.navbar-default {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+a.logoff:link{
+	color:#fff;
+	text-decoration:none;	
+}
+a.logoff:hover{
+	color:#fff;
+	text-decoration:none;	
+}
+a.logoff:visited{
+	color:#fff;
+	text-decoration:none;	
+}
+.welcomeMsg{
+	padding-right:50px;
+	color: #000000 !important;
+}
+
+/* main content */
+.mainContent {
+	margin-top: 50px;
+}
+
+.iconBox {
+	font-size: 2em;
+	padding: 15px 5px 15px 5px;
+}
+
+.p1 {
+	padding: 20px 20px 20px 20px;
+}
+
+.p2 {
+	padding: 0px 0px 20px 20px;
+}
+.highlight {
+	background-color:yellow;
+}
+/* Table Type 1 */
+.table1 {
+  border-collapse: collapse;
+  border: 1px silver solid;
+}
+
+.table1 th {
+  border: 1px silver solid;
+  background-color: #b8e0b8;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.table1 td {
+  border: 1px silver dotted;
+  padding: 10px 10px;
+}
+
+
+
+/* footer */
+footer {
+	background-color: #5cb85c;
+	color: white;
+	padding: 20px 0px 20px 0px;
+	margin-top: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #333;
+  background-color: transparent;
+}
+
+
+
+/* scrollable top of page button */
+#topOfPageBtn {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 99;
+}
+
+
+
+/* change the breakpoint for Nav bar to collapse to hamburger menu - normally changes at less than 768 px - want to change for devices smaller than iPad Pro */
+@media (max-width: 1023px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+
+/* login modal */
+.modal-header, h4, .close {
+		background-color: #5cb85c;
+		color:white !important;
+		text-align: center;
+		font-size: 30px;
+}
+
+.modal-footer {
+		background-color: #f9f9f9;
+}

@@ -1,0 +1,281 @@
+/*
+File Name: styles.css
+Author: Daniel Busch, Dahmon Bicheno, Aleksander Tudorin, Yeojin song, Blair Collins, Harris salehi
+Date Created: 8/08/2018
+Date Last updated:
+Last Updated By:
+Description: stylesheet for Kara House Website
+Version Number: 0.1
+*/
+
+body, html {
+	overflow-x: hidden;
+}
+
+/* Accordion Styles */
+.accordionArrow {
+	width: 29px;
+    height: 19px;
+    align-self: center;
+    transition: all 1s;
+}
+
+.accordionArrowOpen {
+	width: 29px;
+    height: 19px;
+    align-self: center;
+    transform: rotate(-180deg);
+    transition: all 1s;
+}
+
+.accordionHeading {
+	margin-top: 20px;
+	border-top: 5px solid #6824D6;
+	border-bottom: 2px solid #6824D6;
+	margin-bottom: -2px;
+	color: #6824D6;
+	display: flex;
+	padding: 5px 10px;
+	justify-content: space-between;
+}
+
+.accordionHeading > p {
+	align-self: center;
+	margin: 0;
+}
+
+.accordionButton:hover {
+	text-decoration: none;
+}
+
+.accordionContent {
+	max-height: 0;
+	opacity: 0;
+	transition: all 1s ease-in-out;
+	overflow: hidden;
+}
+
+.accordionContentOpen {
+	max-height: 100%;
+	padding: 20px 0;
+	transition: all 1s ease-in-out;
+	overflow: hidden;
+}
+
+/* Slider styles */
+.formSubmit, .formCancel {
+	display: none;
+}
+
+form {
+	display: inline;
+}
+
+form label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+form textarea {
+	width: 100%;
+	min-height: 90px;
+}
+
+.clientStoryText {
+	min-height: 500px;
+}
+
+fieldset {
+	margin: 0 5px;
+}
+
+.form-control:focus {
+	border-color: #6824D6;
+	
+	    box-shadow: 0 0 0 0.2rem rgba(104, 36, 214,.25);
+}
+
+/* Modal & Modal Content*/
+
+body {
+	font-family: Roboto, Calibri, "Arial", ;
+}
+
+.loginModal {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	width: 350px;
+	background: #FFFFFF;
+	border:1px solid #E6E6E6;padding: 10px;
+}
+
+.modalInputs {
+	display: block;
+	text-align: center;
+}
+
+.modalInputs label {
+	margin-top: 10px;
+}
+
+.welcomeMessage {
+	display: block;
+	padding: 10px;
+}
+
+.sliderInfo {
+	display:inline-block;
+	width: 40%;
+	height: auto;
+	padding: 20px;
+}
+
+.sliderInfo input {
+	display: inline-block;
+}
+
+.forgotPassword {
+	text-decoration:none;
+	color: #c3a7f1;
+}
+
+.forgotPassword:hover {
+	color: #6824D6;
+}
+
+.adminInput {
+	width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+	margin-bottom:15px;
+    box-sizing: border-box;
+	color: #6824D6;
+}
+
+.adminInput:focus {
+	border-color: #6824D6;
+}
+
+.adminInput::selection {
+	background-color:#6824D6;
+	color:#FFFFFF;
+}
+
+.changePasswordButton {
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.cancelButton {
+	padding: 5px 20px;
+	border: 1px solid #FF1A1A;
+	border-radius: 2px;
+	color: #FF1A1A;
+	background-color: #ffffff;
+	text-decoration: none;
+	transition: color, background-color .15s;
+}
+
+.cancelButton:hover {
+	background-color: #FF1A1A;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.formButton {
+	padding: 5px 20px;
+	border: 1px solid #147AC3;
+	border-radius: 2px;
+	box-sizing: border-box;
+	color: #147AC3;
+	background-color: #ffffff;
+	text-decoration: none;
+	transition: color, background-color .15s;
+}
+
+.formButton:hover {
+	background-color: #147AC3;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.adminHeading {
+	color:#6824D6;
+}
+
+
+.cmsContainer {
+	padding-left: 0;
+}
+
+
+/* Blair's CSS */
+
+.sideNav {
+	overflow-x: scroll;
+	padding: 0;
+	height: 100%;
+	position: fixed;
+	background-color: #ffffff;
+	transition: 0.5s;
+	border-right: 1px #C4C4C4 solid;
+}
+.dropdown-container {
+	display: none;
+	background-color: #ffffff;
+	transition: 0.5s;
+}
+
+.navbar {
+	border-bottom: 1px solid #C4C4C4;
+}
+
+.main{
+	padding-top: 25px;
+	margin-left: 350px;
+	margin-right: 150px;
+}
+.nav-link {
+	padding-left: 15px;
+	color: #000000;
+	border-radius: 0!important;
+}
+.inner {
+	padding-left: 40px!important;
+	background-color: #EFEFEF;
+}
+.active{
+	background-color: #1474C3!important;
+	display: block;
+	color: #ffffff;
+}
+
+.nav-link-bottom-border {
+	border-bottom: solid #C4C4C4 1px;
+}
+
+.nav-link:hover, .dropdownItemActive {
+	background-color: #6824D6;
+	color: #ffffff;
+}
+
+.dropdownActive {
+	display: block;
+}
+/*End of Blair's CSS*/

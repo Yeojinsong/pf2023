@@ -1,0 +1,437 @@
+<!--
+Filename: index.html
+Author: Yeojin Song 102060145
+Date Created: 24 May 2018
+Last Updated:
+Desrciption: Home Page of  Hipster's Anonymous Website
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<!-- document's character set -->
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="desrciption" content="Hipster's community Website">
+		<meta name="keywords" content="Hipster, urban, cafe, review">
+		<meta name="author" content="Yeojin Song">
+
+		<title>Hipster's Anonymous</title>
+
+		<!-- link to bootstrap external css file -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+
+		<!-- link to our custom external css file to override bootstrap css -->
+		<link rel="stylesheet" href="css/styles-mine.css" media="screen">
+
+		<!-- Bootstrap recommends including these at the end of the page  -->
+		<!-- jQuery (necessary for Bootstrap's Javasrcipt plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- link to required Bootstrap JS files -->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+			
+		<!-- link to google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<!-- link to custom css -->
+		<link rel="stylesheet" type="text/css" href="css/customCss.css">
+		
+		<!-- cdn for modernizr, if you haven't included it already -->
+
+		<script src="http://cdn.jsdelivr.net/webshim/1.12.4/extras/modernizr-custom.js"></script>
+
+		<!-- polyfiller file to detect and load polyfills -->
+
+		<script src="http://cdn.jsdelivr.net/webshim/1.12.4/polyfiller.js"></script>
+
+		<script>
+
+		  webshims.setOptions('waitReady', false);
+
+		  webshims.setOptions('forms-ext', {types: 'date'});
+
+		  webshims.polyfill('forms forms-ext');
+
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="logo" class="logoImg">		
+				</a>
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="subpage.htmlnavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item navFontStyle active">
+						<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						RESTAURANTS & CAFES
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="subpage.html">CAFE</a>
+							<a class="dropdown-item" href="subpage.html">DESSERT</a>
+							<a class="dropdown-item" href="subpage.html">ASIAN</a>
+							<a class="dropdown-item" href="subpage.html">LOCAL GEMS</a>
+							<a class="dropdown-item" href="subpage.html">BARBEQUE</a>
+							<a class="dropdown-item" href="subpage.html">BISTRO</a>
+							<a class="dropdown-item" href="subpage.html">HOME STYLE</a>
+							<a class="dropdown-item" href="subpage.html">FIND DINING</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						TRAVEL
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+							<a class="dropdown-item" href="subpage.html">LOCAL</a>
+							<a class="dropdown-item" href="subpage.html">OVERSEA</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						INTERIOR
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+							<a class="dropdown-item" href="subpage.html">OFFICE</a>
+							<a class="dropdown-item" href="subpage.html">STORE</a>
+							<a class="dropdown-item" href="subpage.html">HOME</a>
+							<a class="dropdown-item" href="subpage.html">GALLERY</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						HEALTH
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+							<a class="dropdown-item" href="subpage.html">EXERCISE</a>
+							<a class="dropdown-item" href="subpage.html">FOOD</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						EVENTS
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+							<a class="dropdown-item" href="subpage.html">ACTIVITY</a>
+							<a class="dropdown-item" href="subpage.html">ART</a>
+							<a class="dropdown-item" href="subpage.html">FOOD</a>
+							<a class="dropdown-item" href="subpage.html">MUSIC</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						COMMUNITY
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+							<a class="dropdown-item" href="community.html">TRANDING</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle">
+						<a class="nav-link" href="#">CONTACT US</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			  </div>
+			</nav>
+		</header>
+		<div class="container">
+			<!-- start sub tab menu-->
+			<div class="row">
+				<div class="submenuSearch">
+					<img src="images/submenubg.jpg" class="img-fluid" alt="Header image">
+					<!-- tab start-->
+					<div class="searchList">
+						<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+						  <li class="nav-item subNav">
+							<a class="nav-link active" id="pills-activity-tab" data-toggle="pill" href="#pills-activity" role="tab" aria-controls="pills-activity" aria-selected="true">ACTIVITY</a>
+						  </li>
+						  <li class="nav-item subNav">
+							<a class="nav-link" id="pills-ART-tab" data-toggle="pill" href="#pills-ART" role="tab" aria-controls="pills-ART" aria-selected="false">ART</a>
+						  </li>
+						  <li class="nav-item subNav">
+							<a class="nav-link" id="pills-FOOD-tab" data-toggle="pill" href="#pills-FOOD" role="tab" aria-controls="pills-FOOD" aria-selected="false">FOOD</a>
+						  </li>
+						  <li class="nav-item subNav">
+							<a class="nav-link" id="pills-MUSIC-tab" data-toggle="pill" href="#pills-MUSIC" role="tab" aria-controls="pills-MUSIC" aria-selected="false">MUSIC</a>
+						  </li>
+						</ul>
+						<div class="tab-content" id="pills-tabContent">
+						  <div class="tab-pane fade show active redBg" id="pills-activity" role="tabpanel" aria-labelledby="pills-activity-tab">
+							<form>
+								<div class="row text-center">
+									<div class="input-group col-md-6">
+										<div class="input-group-prepend">
+										<span class="input-group-text"><img src="images/map.png" alt="arrow"></span>
+										</div>
+										<input type="text" class="form-control subInput" placeholder="Destination1" >
+									</div>
+									<div class="input-group col menu2ndLine">
+										<div class="input-group-prepend">
+										<span class="input-group-text" ><img src="images/calendar.png" alt="calendar"></span>
+										</div>
+										<input type="date" class="form-control subInput"  >
+									</div>
+									<div class="col text-left menu2ndLine">
+									<button type="submit" class="btn btn-warning"><img src="images/arrow.png" alt="arrow"></button>
+									</div>
+								</div>
+							</form>
+						  </div><!-- end -->
+						<div class="tab-pane redBg fade" id="pills-ART" role="tabpanel" aria-labelledby="pills-ART-tab">
+							<form>
+								<div class="row text-center">
+									<div class="input-group col-md-6">
+										<div class="input-group-prepend">
+										<span class="input-group-text" ><img src="images/map.png" alt="map marker"></span>
+										</div>
+										<input type="text" class="form-control subInput" placeholder="Destination2" >
+									</div>
+									<div class="input-group col menu2ndLine">
+										<div class="input-group-prepend">
+										<span class="input-group-text" ><img src="images/calendar.png" alt="calendar"> </span>
+										</div>
+										<input type="date" class="form-control subInput">
+									</div>
+									<div class="col text-left menu2ndLine">
+									<button type="submit" class="btn btn-warning"><img src="images/arrow.png" alt="arrow"></button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="tab-pane redBg fade" id="pills-FOOD" role="tabpanel" aria-labelledby="pills-FOOD-tab">
+						<form>
+								<div class="row text-center">
+									<div class="input-group col-md-6">
+										<div class="input-group-prepend">
+										<span class="input-group-text" ><img src="images/map.png" alt="map marker"></span>
+										</div>
+										<input type="text" class="form-control subInput" placeholder="Destination3" >
+									</div>
+									<div class="input-group col menu2ndLine">
+										<div class="input-group-prepend">
+										<span class="input-group-text" ><img src="images/calendar.png" alt="calendar"></span>
+										</div>
+										<input type="date" class="form-control subInput">
+									</div>
+									<div class="col text-left menu2ndLine">
+									<button type="submit" class="btn btn-warning"><img src="images/arrow.png" alt="arrow"></button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="tab-pane redBg fade" id="pills-MUSIC" role="tabpanel" aria-labelledby="pills-MUSIC-tab">
+							<form>
+								<div class="row text-center">
+									<div class="input-group col-md-6">
+										<div class="input-group-prepend">
+										<span class="input-group-text" ><img src="images/map.png" alt="map marker"></span>
+										</div>
+										<input type="text" class="form-control subInput" placeholder="Destination4" >
+									</div>
+									<div class="input-group col menu2ndLine">
+										<div class="input-group-prepend">
+										<span class="input-group-text" ><img src="images/calendar.png" alt="calendar"></span>
+										</div>
+										<input type="date" class="form-control subInput">
+									</div>
+									<div class="col text-left menu2ndLine">
+									<button type="submit" class="btn btn-warning"><img src="images/arrow.png" alt="arrow"></button>
+									</div>
+								</div>
+							</form>
+						</div>
+						</div><!-- End of tab-->
+					</div><!-- End of col-8 col-sm-6-->
+				</div><!-- End of submenuSearch -->
+			<div class="siteMap">
+			<a href="#">Home</a> > <a href="#">Events</a> > <a href="#">Music</a> > <a href="#"><span class="redColor">Melbourne</span></a> 
+			</div>
+			</div><!-- End of row -->
+			<!-- end sub tab menu-->
+			
+			<!-- start big intro -->
+			<div class="row bigIntro">
+				<div class="col-md-8">
+					<img src="images/180416-Crown-Melbourne-Entertainment-The-McClymonts-974x676-2.jpg" class="img-fluid" alt="McClymonts">
+				</div> 
+				<div class="col-md-4 bg-white bigIntroText">
+					<h3>Like We Used To Tour</h3>
+					<p class="bigIntroItalic">Saturday 25 August 2018<br>The Palms at Crown</p>
+					<p>Australia’s favourite and most successful country group, The McClymonts are returning to the road after a year off and they’re ready to kick it up in style at The Palms at Crown. Despite the break, Brooke, Sam & Mollie have been anything but quiet with their best-selling latest album ‘Endless’ debuting #1 Country & #3 ARIA all-genre album chart upon release and generating three smash hit singles - “House”, “Don’t Wish It All Away” and “Like We Used To”, after which the tour is named. On top of that, the girls took home three awards at the 2018 Golden Guitar Awards including the coveted Album of the Year and Group of the Year at the CMC Awards.
+					</p>
+					<div class="btn-group text-center">
+						<a href="detail.html" class="btn btn-getTicket ">GET TICKET</a>
+					</div>      
+				</div>
+			</div>
+			<!-- end big intro -->
+			<div>
+			<p class="eventsListHeader">Popular Melbourne events</p>
+			</div>
+			<!-- start events thumnails -->
+			
+			<div class="row">
+            <div class="col-md-4">
+                <a href="detail.html"><img class="card-img-top eventsTh eventsTh" src="images/180319-Crown-Melbourne-Entertainment-Theatre-Menopause-490x346.jpg" alt="Card image cap"></a>
+                <div class="card-body thumBox">
+					<div class="row">
+						<div class="col-2">
+						  <p class="card-text text-center">
+							<span class="redColor">NOV</span>
+							<br>
+							20</p>
+							</div>
+						<div class="col">
+						  <p class="card-text popularEvents">
+							<span class="popularEventsTitle">Menopause the Musical</span>
+							<br>
+							Inspired by a hot flush and a bottle of wine, Jeanie Linders created Menopause the Musical as a celebration of women who are on the brink of, in the middle of, or have survived ‘The Change’. Come and see for yourself.</p>	 
+						</div>  
+					</div>
+				</div>
+			</div>
+          
+            <div class="col-md-4">
+              <div>
+                <a href="detail.html"><img class="card-img-top eventsTh" src="images/Crown-Melbourne-Live-Theatre-Princes-of-the-Night-Promo-Pod.jpg" alt="Card image cap"></a>
+                <div class="card-body thumBox">
+					<div class="row">
+						<div class="col-2">
+						  <p class="card-text text-center">
+							<span class="redColor">OCT</span>
+							<br>
+							17</p>
+							</div>
+						<div class="col">
+						  <p class="card-text popularEvents">
+							<span class="popularEventsTitle">Princes Of The Night</span>
+							<br>
+							A night of music, dance and comedy, all intertwined in a showcase of Melbourne’s hottest male burlesque talent. </p>	 
+						</div>  
+					</div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="col-md-4">
+              <div>
+                <a href="detail.html"><img class="card-img-top eventsTh" src="images/171204-Crown-Melbourne-Entertainment-The-Palms-Ian-Moss-974x676.jpg" alt="Card image cap"></a>
+                <div class="card-body thumBox">
+					<div class="row">
+						<div class="col-2">
+						  <p class="card-text text-center">
+							<span class="redColor">JUN</span>
+							<br>
+							6-7</p>
+							</div>
+						<div class="col">
+						  <p class="card-text popularEvents">
+							<span class="popularEventsTitle">Ian Moss - National Theatre Tour</span>
+							<br>
+							Respected as one of Australia’s iconic musicians, Ian Moss delivers an unforgettable concert in his 2018 Australian tour. </p>	 
+						</div>  
+					</div>
+				</div>
+			  </div>
+			</div>
+			
+			<!-- 2nd line -->		
+			<div class="col-md-4">
+              <div>
+                <a href="detail.html"><img class="card-img-top eventsTh" src="images/180411-Crown-Melbourne-Entertainment-Concerts-Choir-Boys-490x346.jpg" alt="ChoirBoys - Forever Young"></a>
+                <div class="card-body thumBox">
+					<div class="row">
+						<div class="col-2">
+						  <p class="card-text text-center">
+							<span class="redColor">MAY</span>
+							<br>
+							19</p>
+							</div>
+						<div class="col">
+						  <p class="card-text popularEvents">
+							<span class="popularEventsTitle">ChoirBoys - Forever Young</span>
+							<br>
+							Choirboys and their music have found their way into our hearts, ears and minds. If you are a fan of classic Aussie rock this is a show not to be missed.</p>	 
+						</div>  
+					</div>
+				</div>
+			  </div>
+			</div>
+          
+            <div class="col-md-4">
+              <div>
+                <a href="detail.html"><img class="card-img-top eventsTh" src="images/180416-Crown-Melbourne-Entertainment-Prince-974x676-3.jpg" alt="Prince - Purple Revolution"></a>
+                <div class="card-body thumBox">
+					<div class="row">
+						<div class="col-2">
+						  <p class="card-text text-center">
+							<span class="redColor">MAY</span>
+							<br>
+							17</p>
+							</div>
+						<div class="col">
+						  <p class="card-text popularEvents">
+							<span class="popularEventsTitle">Prince - Purple Revolution</span>
+							<br>
+							Andrew De Silva’s Purple Revolution is a heartfelt dedication to the music of one of the greatest icons of the 21st Century… Prince. Join us for this respectful yet soulful musical journey.</p>	 
+						</div>  
+					</div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="col-md-4">
+              <div>
+                <a href="detail.html"><img class="card-img-top eventsTh" src="images/180327-Crown-Melbourne-Entertainment-Concert-KASEY-CHAMBERS-974x676-1.jpg" alt="Kasey Chambers"></a>
+                <div class="card-body thumBox">
+					<div class="row">
+						<div class="col-2">
+						  <p class="card-text text-center">
+							<span class="redColor">APR</span>
+							<br>
+							6</p>
+						</div>
+						<div class="col">
+						  <p class="card-text popularEvents">
+							<span class="popularEventsTitle">Kasey Chambers</span>
+							<br>
+							Join Kasey Chambers by the “Campfire” for a musical journey through the stories of places, people, cultures and sounds that have inspired one of Australia’s most revered performers </p>	 
+						</div>  
+					</div>
+				</div>
+			  </div>
+			</div>		
+          </div><!-- end of row-->
+		<!-- end events thumnails -->
+		</div>
+		<footer class="text-center">
+			<hr>
+			<p>&copy; Hipster’s Anonymous <span class="lSpace">l</span>
+				<a href="#">Send Feedback</a> <span class="lSpace">l</span>
+				<a href="#">Work With Us</a> <span class="lSpace">l</span>
+				<a href="#">Contact Us</a> <span class="lSpace">l</span>
+				<a href="#">Advertise</a> <span class="lSpace">l</span>
+				<a href="#">Terms of Service</a> <span class="lSpace">l</span>
+				<a href="#">Privacy</a>
+			</p>
+		</footer>
+	</body>
+</html>

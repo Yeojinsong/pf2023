@@ -1,0 +1,334 @@
+/*
+Filename: customStyles.css
+Author: Janet Bott
+Date: 27 February 2018
+Description: CSS external stylesheet for Fruits 'R' Us website
+*/
+
+
+/* tell browsers to render HTML5 semantic elements as block elements */
+header, footer, aside, nav, article, section {
+	display: block;
+}
+
+
+
+/* body */
+body {
+	color: #606060;
+	background-color: #f8f8f8;
+}
+
+
+
+/* header */
+.jumbotron {
+	margin-top: 20px;
+	background: url("../images/ptn03.jpg") center center repeat;
+	/*background-size: cover;*/
+	/*background-color:#102948;*/
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.jumbotron  p {
+	color: #ccc;
+	font-weight: 500;
+}
+
+
+
+
+/* navigation */
+.navbar-default {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #4b4b4b;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  font-weight: 500;
+}
+
+a.logoff:link{
+	color:#fff;
+	text-decoration:none;	
+}
+a.logoff:hover{
+	color:#fff;
+	text-decoration:none;	
+}
+a.logoff:visited{
+	color:#fff;
+	text-decoration:none;	
+}
+.welcomeMsg{
+	padding-right:50px;
+	color: #000000 !important;
+}
+
+
+/* main content */
+.mainContent {
+	margin-top: 50px;
+}
+
+.iconBox {
+	font-size: 2em;
+	padding: 15px 5px 15px 5px;
+}
+
+.p1 {
+	padding: 20px 20px 20px 20px;
+}
+
+.p2 {
+	padding: 0px 0px 20px 20px;
+}
+
+.bookshelfTable td{
+	text-align:center;
+}
+.bookshelf{
+	width:200px;
+	height:260px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  top:0;
+  left:0;
+  margin: 0 0;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -400px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.h3Video > p {float:left;}
+.line1{
+		height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+	clear:both;
+}
+.banner {
+    position: relative;
+	float:left;
+	margin: 5px;
+	text-align:center;
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.row .banner .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #102948;
+    color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+	outline:none
+}
+.row .banner:nth-child(2) .btn {
+    background-color: #6bb194;
+}
+.row .banner:nth-child(3) .btn {
+    background-color: #6a5550;
+}
+.row .banner .btn:hover {
+    background-color: #ccc;
+    color: black;
+}
+/*catalogue Menu*/
+
+.catalMenu >ul{
+  
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#333;
+}
+
+.catalMenu li {
+	float:left;
+}
+.catalMenu li a {
+  display: block;
+  color:#fff;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+.catalMenu li a:hover {
+ background-color:#111;
+}
+
+.highlight{background-color: #FFFF00 !important; }
+
+
+/*table*/
+.noFurther{
+	border:none;
+	color:red;
+}
+
+/*catalogue*/
+.catalogueRow{
+	position:relative;
+	float:left;
+	width:500px;
+	height:500px;
+	
+
+}
+/* Table Type 1 */
+.table1 {
+  border-collapse: collapse;
+  border: 1px silver solid;
+}
+
+.table1 th {
+  border: 1px silver solid;
+  background-color: #b8e0b8;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.table1 td {
+  border: 1px silver dotted;
+  padding: 10px 10px;
+}
+
+
+
+/* footer */
+footer {
+	background-color: #102948;
+	color: white;
+	padding: 20px 0px 20px 0px;
+	margin-top: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #333;
+  background-color: transparent;
+}
+
+
+
+/* scrollable top of page button */
+#topOfPageBtn {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 99;
+}
+
+
+
+/* change the breakpoint for Nav bar to collapse to hamburger menu - normally changes at less than 768 px - want to change for devices smaller than iPad Pro */
+@media (max-width: 1023px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+
+/* login modal */
+.modal-header, h4, .close {
+		background-color: #5cb85c;
+		color:white !important;
+		text-align: center;
+		font-size: 30px;
+}
+
+.modal-footer {
+		background-color: #f9f9f9;
+}

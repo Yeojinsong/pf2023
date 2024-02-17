@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); (under the Apache Software License). 
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+  font-family: 'Berkshire Swash';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Berkshire Swash'), local('BerkshireSwash-Regular'), url(http://themes.googleusercontent.com/static/fonts/berkshireswash/v1/4RZJjVRPjYnC2939hKCAitJftMAoj96Wrc4hVDPiTSk.ttf) format('truetype');
+}
+/*nav*/
+.navFontStyle a{
+	color:#565656 !important;
+	font-family: 'Roboto'!important;	
+	font-size:10pt!important;
+	font-weight:regular !important;
+}
+.navFontStyle a:hover{
+	color:#6FCF97 !important;
+}
+
+
+/*index*/
+
+.logoText{
+	display:inline-block;
+	color:#000;
+	font-family: 'Berkshire Swash';
+	font-size:14pt;
+	font-weight:regular;
+}
+
+.logoImg{
+	display:block;
+	width:29px;
+	height:53px;
+}
+
+.indexIntro .row{
+	padding:30px;
+}
+.indexIntroText{
+	display:inline-block;
+}
+
+.indexIntroImg{
+	display:block;
+	width:36px;
+	height:66px;
+}
+.indexFontStyle{margin-bottom:60px;}
+.card-title{
+	color:#000 !important;
+	font-family: 'Roboto'!important;	
+	font-size:14pt!important;
+}
+.indexFontStyle, .card-text{
+	color:#000 !important;
+	font-family: 'Roboto'!important;
+	font-size:10pt!important;
+	font-weight:regular;
+}
+.btn-readmore{
+	background-color:#6FCF97;
+	border-radius: 0px;
+	padding:2px 20px;
+	color:#fff;
+	text-align:center;
+	font-size:10pt;
+	font-weight:regular;
+}
+.btn-readmore:hover{
+	border:1px solid #6FCF97;
+	background-color:#fff;
+	color:#6FCF97;
+	transition-duration: .5s;
+}
+
+
+/*submenu*/
+
+.searchList{
+	position:relative;
+	top:-40px;
+}
+.subNav{
+	margin-left:5px;
+	background-color:#F2994A;
+}
+.subNav a{
+	color:#000 !important;
+}
+.nav-pills>li>a.active, .nav-pills>li>a:hover, .nav-pills>li>a:focus{
+	color:#fff;
+	background-color:#EB5757!important;
+	border-radius: 0;
+}
+.redBg{
+	position:relative;
+	top:-16px;
+	padding:30px;
+	background-color:#EB5757;	
+}
+.input-group-text{
+	
+	border:none !important;
+	border-radius:none !important;
+}
+
+.subInput{
+	border:none !important;
+	border-radius:none !important;
+}
+.input-group-text{
+	background-color:#F2C94C;
+}
+.input-group{
+	border:0;
+}
+
+.siteMap {
+	margin:0;
+	padding-left:20px;
+	padding-bottom:30px;
+	color:#ccc;
+	font-family: 'Roboto';
+	font-size:10pt;
+	font-weight:regular;
+}
+.siteMap a{
+	color:#ccc;
+	font-family: 'Roboto';
+	font-size:10pt;
+	font-weight:regular;
+}
+
+.redColor { color:#EB5757 !important;}
+
+
+
+.bigIntro{
+	margin:0;
+	font-family: 'Roboto';
+	font-size:10pt;
+	font-weight:regular;
+	color:#000;
+	background-color:#A6A7BB;
+	padding: 30px;
+}
+.bigIntro h3{
+	font-weight:bold;
+	color:#DFB4A7;
+}
+.bigIntroText{
+	padding:30px;
+}
+.bigIntroItalic{
+	font-style: italic;
+	color:#808080;
+}
+.btn-getTicket{
+	border-radius: 0px;
+	padding:2px 20px;
+	color:#fff;
+	text-align:center;
+	background-color:#21837F;
+}
+.btn-getTicket:hover{
+	border: 1px solid #21837F;
+	border-radius: 0px;
+	color:#21837F;
+	background-color:#fff;
+	transition-duration: .5s;
+}
+.thumBox{margin-bottom:60px;}
+.eventsListHeader{
+	font-size:24pt;
+	font-weight:100;
+	color:#000;
+	padding: 20px;
+}
+.eventsTh:hover{
+	 opacity:.2;
+	 transition-duration: 1s;
+
+}
+.popularEvents{
+	font-family: 'Roboto';
+	color:#A6A7BB !important;
+	font-size:12px;
+}
+
+.popularEventsTitle{
+	
+	color:#000 !important;
+	font-size:18px;
+}
+
+/*community*/
+.greenBg{
+	position:relative;
+	top:-16px;
+	padding:30px;
+	background-color:#21837F;
+}
+.communityTitle{
+	margin:0;	
+	font-size:24pt;
+	font-weight:100;
+	color:#000;
+	padding-left:20px;
+}
+.foodTitle{
+	margin:0;	
+	font-size:24pt;
+	font-weight:100;
+	color:#000;
+	padding-top:60px;
+}
+.tagImages {
+	margin:0;
+	width:370px;
+	height:370px;
+	
+}
+.tagImages img{
+	width:370px;
+	height:370px;
+	object-fit:cover;
+	padding:5px;
+}
+.tagImages img:hover{
+	opacity: 0.3;
+}
+.tagTitle{
+	position:relative;
+	top:-200px;
+	text-align:center;
+	color:white;
+	font-size:48px;
+	text-shadow: 1px 1px 5px #000;
+}
+
+.hrPadding{
+	padding:20px;
+	border:0;
+}
+
+/*detail*/
+.detailLink{
+	color:blue;
+}
+.detailLink :hover{
+	text-decoration:underline;
+}
+.iframe-container{
+	position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.detailSiteMap {
+	margin:0;
+	padding:0;
+	color:#ccc;
+	font-family: 'Roboto';
+	font-size:10pt;
+	font-weight:regular;
+}
+.detailSiteMap a{
+	color:#ccc;
+	font-family: 'Roboto';
+	font-size:10pt;
+	font-weight:regular;
+}
+.detailMap{
+	width:50%;
+}
+.timetable {
+	margin-top:20px;
+	text-align:left;
+	font-family: 'Roboto';
+	font-size:12pt;
+	font-weight:600;
+}
+.timetable th {
+	margin:0 !important;
+	padding:0 !important;
+	border-bottom: 2px solid red;
+}
+.redLine{
+	border-color:red;
+}
+.detailTime{
+	text-align:right;
+	font-weight:200;
+}
+
+.detailRedBg{
+	position:relative;
+	top:-20px;
+	margin:0;
+	padding:20px;
+	border:20px solid #EB5757;
+	color:#666;
+	margin-top:20px;
+	text-align:left;
+	font-family: 'Roboto';
+	font-size:10pt;
+}
+.detailNav{
+	margin-top:20px;
+	margin-right:10px;
+	background-color:#F2C94C;
+	color:#fff;	
+}
+.detailNav a{
+	color:#fff;
+}
+.classTimetable th{
+	color:#EB5757 !important;
+}
+
+
+
+/*footer*/
+footer ,a{
+	color:#666;
+	font-family: 'Roboto';
+	font-size:10pt;
+	font-weight:regular;
+}
+.lSpace{padding:0 20px;}
+
+/* change the breakpoint for Nav bar to collapse to hamburger menu - normally changes at less than 768 px - want to change for devices smaller than iPad Pro */
+@media (max-width: 500px) {
+/*submenu*/
+.menu2ndLine{
+	padding-top:15px;
+}
+
+
+.popularPhotos .tagImages{
+	text-align:center;
+}
+.hidden-xs {
+    display: none!important;
+}
+}
+
+
+
+

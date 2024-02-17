@@ -1,0 +1,219 @@
+<!--
+Filename: index.html
+Author: Yeojin Song 102060145
+Date Created: 24 May 2018
+Last Updated:
+Desrciption: Home Page of  Hipster's Anonymous Website
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<!-- document's character set -->
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="desrciption" content="Hipster's community Website">
+		<meta name="keywords" content="Hipster, urban, cafe, review">
+		<meta name="author" content="Yeojin Song">
+
+		<title>Hipster's Anonymous</title>
+
+		<!-- link to bootstrap external css file -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+
+		<!-- link to our custom external css file to override bootstrap css -->
+		<link rel="stylesheet" href="css/styles-mine.css" media="screen">
+
+		<!-- Bootstrap recommends including these at the end of the page  -->
+		<!-- jQuery (necessary for Bootstrap's Javasrcipt plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- link to required Bootstrap JS files -->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- link to google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<!-- link to custom css -->
+		<link rel="stylesheet" type="text/css" href="css/customCss.css">
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="logo" class="logoImg">		
+				</a>
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="subpage.htmlnavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item navFontStyle active">
+						<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						RESTAURANTS & CAFES
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="subpage.html">CAFE</a>
+							<a class="dropdown-item" href="subpage.html">DESSERT</a>
+							<a class="dropdown-item" href="subpage.html">ASIAN</a>
+							<a class="dropdown-item" href="subpage.html">LOCAL GEMS</a>
+							<a class="dropdown-item" href="subpage.html">BARBEQUE</a>
+							<a class="dropdown-item" href="subpage.html">BISTRO</a>
+							<a class="dropdown-item" href="subpage.html">HOME STYLE</a>
+							<a class="dropdown-item" href="subpage.html">FIND DINING</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						TRAVEL
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+							<a class="dropdown-item" href="subpage.html">LOCAL</a>
+							<a class="dropdown-item" href="subpage.html">OVERSEA</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						INTERIOR
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+							<a class="dropdown-item" href="subpage.html">OFFICE</a>
+							<a class="dropdown-item" href="subpage.html">STORE</a>
+							<a class="dropdown-item" href="subpage.html">HOME</a>
+							<a class="dropdown-item" href="subpage.html">GALLERY</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						HEALTH
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+							<a class="dropdown-item" href="subpage.html">EXERCISE</a>
+							<a class="dropdown-item" href="subpage.html">FOOD</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						EVENTS
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+							<a class="dropdown-item" href="subpage.html">ACTIVITY</a>
+							<a class="dropdown-item" href="subpage.html">ART</a>
+							<a class="dropdown-item" href="subpage.html">FOOD</a>
+							<a class="dropdown-item" href="subpage.html">MUSIC</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle dropdown">
+						<a class="nav-link" href="subpage.html" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						COMMUNITY
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+							<a class="dropdown-item" href="community.html">TRANDING</a>
+						</div>
+					</li>
+					<li class="nav-item navFontStyle">
+						<a class="nav-link" href="#">CONTACT US</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			  </div>
+			</nav>
+			<img src="images/Melbourne_from.jpg" class="img-fluid" alt="Responsive image">
+		</header>
+		<div class="container">
+			<div><!-- start index intro part -->
+				<div class="indexIntro">
+					<div class="row">
+						<img src="images/logo.png" alt="logo" class="indexIntroImg">	
+						<div class="col indexIntroText">
+						<p>Hipster’s Anonymous is to gather and curate large amounts of products, services and anything in-between that may appeal to an inner city Hipster, with the hope of engaging people in a meaningful way to better the community.</p>
+						</div>
+					</div>
+				</div>
+			</div><!-- end index intro part -->
+			<!-- start image card -->
+			
+			<div class="card-deck">
+				<div class="col-md-4">
+					<img class="card-img-top" src="images/Th_restaurant.jpg" alt="restaurant">
+					<div class="card-body indexFontStyle">
+						<h5 class="card-title">RESTAURANTS & CAFES</h5>
+						<p class="card-text">You’re never short of something to do in Melbourne, especially when it comes to weekends. And with the massive cold front hitting Melbourne at the moment, we needed a little bit of good news to bring us out of our frozen slumber.</p>
+						<a href="detail.html"   class="btn btn-readmore" >Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img class="card-img-top" src="images/Th_travel.jpg" alt="travel">
+					<div class="card-body indexFontStyle">
+						<h5 class="card-title">TRAVEL</h5>
+						<p class="card-text">sometimes nothing beats a holiday near the sea. Whether you are a sailor, land lubber, or dabble in all sorts of activities, Hipstersanonymus.com.au has you covered.</p>
+						<a href="detail.html"   class="btn btn-readmore">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img class="card-img-top" src="images/Th_interior.jpg" alt="interior">
+					<div class="card-body indexFontStyle">
+						<h5 class="card-title">INTERIOR</h5>
+						<p class="card-text">The Arts Series has done it again. After expanding with Larwill Studio in North Melbourne, they’ve unleashed a brand new boutique hotel, this time in Box Hill—and damn, will you look at that view.</p>
+						<a href="detail.html"   class="btn btn-readmore">Read More</a>
+					</div>
+				</div>
+				<!-- start 2nd line -->
+				<div class="col-md-4">
+					<img class="card-img-top" src="images/Th_health.jpg" alt="health">
+					<div class="card-body indexFontStyle">
+						<h5 class="card-title">HEALTH</h5>
+						<p class="card-text">Looking for organic, biodynamic and eco-friendly groceries in Melbourne? We've got you covered. 
+					These Melbourne health food stores have everything you need to eat healthy and variuty of exercise will make you feel great</p>
+						<a href="detail.html"   class="btn btn-readmore">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img class="card-img-top" src="images/Th_events.jpg" alt="events">
+					<div class="card-body indexFontStyle">
+						<h5 class="card-title">EVENTS</h5>
+						<p class="card-text">Federation Square will burst into life with the 23rd annual Buddha’s Day and Multicultural Festival, including over 40 events, an Asian vegetarian food fair, 
+				  spectacular cultural performances and a thrilling new dragon boat sprint race along the Yarra River.</p>
+						<a href="detail.html"   class="btn btn-readmore">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img class="card-img-top" src="images/Th_community.jpg" alt="community">
+					<div class="card-body indexFontStyle">
+						<h5 class="card-title">COMMUNITY</h5>
+						<p class="card-text">Get involved with our wide variety of community Fourm, including restaurants, cafe, travel, interior, health and events information to support your urban life.</p>
+						<a href="detail.html"   class="btn btn-readmore">Read More</a>
+					</div>
+				</div>
+				<!--end 2nd line-->
+			</div>
+			<!-- end image card -->
+		</div>
+		<footer class="text-center">
+			<hr>
+			<p>&copy; Hipster’s Anonymous <span class="lSpace">l</span>
+				<a href="#">Send Feedback</a><span class="lSpace">l</span>
+				<a href="#">Work With Us</a><span class="lSpace">l</span>
+				<a href="#">Contact Us</a><span class="lSpace">l</span>
+				<a href="#">Advertise</a><span class="lSpace">l</span>
+				<a href="#">Terms of Service</a><span class="lSpace">l</span>
+				<a href="#">Privacy</a>
+			</p>
+		</footer>
+	</body>
+</html>
